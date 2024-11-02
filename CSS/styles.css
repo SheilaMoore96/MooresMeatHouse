@@ -54,7 +54,7 @@ nav ul li a {
     padding: 5px;
     color: black;
     text-decoration: none;
-    display:block;
+    display: block;
 }
 
 nav ul li a:hover {
@@ -83,7 +83,7 @@ figure{
 }
 
 figcaption {
-    font-style: italic;
+    display: block;
 }
 
 aside {
@@ -94,7 +94,7 @@ aside {
 }
 
 aside p {
-    font-style: italic;
+    display: block;
     font-size: 0.9em;
 }
 
