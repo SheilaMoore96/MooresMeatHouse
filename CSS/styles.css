@@ -83,7 +83,7 @@ figure{
 }
 
 figcaption {
-    font-style: block;
+    font-style: italic;
 }
 
 aside {
@@ -94,7 +94,7 @@ aside {
 }
 
 aside p {
-    font-style: block;
+    font-style: italic;
     font-size: 0.9em;
 }
 
