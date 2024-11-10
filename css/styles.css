@@ -144,3 +144,46 @@ footer a:visited {
 footer a:hover {
     text-decoration: underline;
 }
+
+/* Form Layout Styles */
+
+div.formRow {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 7px 0px;
+}
+
+div.formRow > * {
+	flex: 1 1 150px;
+}	
+
+form#message {
+	display: flex;
+	flex-flow: row wrap;
+}
+form#message > fieldset {
+	background-color: #cc9966;
+	border-radius: 20px;
+	flex: 1 1 300px;
+	font-size: 0.85em;
+	padding: 10px;
+	margin: 10px;
+}
+
+
+/* Legend Styles */
+
+legend {
+	background-color: black;
+	color: white;
+	padding: 5px;
+}
+
+
+/* Text Area Styles */
+
+textarea {
+	margin-top: 10px;
+	height: 100px;
+	width: 95%;
+}
