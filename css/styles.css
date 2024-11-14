@@ -70,7 +70,6 @@ nav ul li a:hover {
     color: black;
     border-left: 2px solid;
     border-right: 2px solid;    
-    background-image: url(images/ricepaper.jpg); 
 }
 
 #main p {
@@ -145,6 +144,43 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* Table Styles */
+
+table.prices {
+	background: #cc9966;
+	border: 20px rgb(153, 0, 153);
+	border-collapse: collapse;
+	font-size: 0.75em;
+	width: 100%
+}
+
+/* Table Cell Styles */
+
+table.prices th, table.prices td{
+	border: 2px solid black;
+	font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+	padding: 5px;
+	vertical-align: top;
+	}
+
+/* Table Row Styles */
+
+table.prices thead {
+	background: #FAEBC9	;
+	color: black;
+}
+
+/* Video Player Styles */
+
+iframe {
+	display: block;
+	margin: 10px auto;
+	width: 100%;
+}
+
+
+	
 /* Form Layout Styles */
 
 div.formRow {
