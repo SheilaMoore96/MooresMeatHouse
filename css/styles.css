@@ -30,7 +30,7 @@ body {
 
 header {
     width: 910px;	
-    margin-bottom: 0px;
+    margin-bottom: -4.5px;
     margin-top: 0px;
     text-align: center;
     
@@ -64,7 +64,7 @@ nav ul li a:hover {
 }
 
 #main {
-    width: 446px;
+    width: 440px;
     padding: 10px;
     float: left;
     color: black;
@@ -74,6 +74,13 @@ nav ul li a:hover {
 
 #main p {
     text-indent: 1.5em;
+}
+
+blockquote {
+	margin: 0.5em 0px;
+	font-size: 0.95em;
+	width: 100%;
+	font-family: Lucida Handwriting;
 }
 
 figure{
@@ -105,12 +112,18 @@ h2 {
 
 h3 {
     text-align: center;
-    padding-bottom: 0.5em;
+	padding-bottom: 0.5em;
     padding-top: 0.5em;
 }
 
+h4 {
+    text-align: right;
+    padding-bottom: 0.75em;
+    padding-top: 0em;
+}
+
 footer {
-    width: 910px;
+    width: 907px;
     margin: 0;
     padding: 10px;
     background-color:  #cc9966;
@@ -122,7 +135,7 @@ footer {
 }
 
 #wrapper {
-    width: 930px;
+    width: 927px;
     margin-bottom: 10px;
     border: 2px solid;
   
